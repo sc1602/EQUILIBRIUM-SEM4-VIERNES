@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width:320px;
+    border-radius:10px;
+    
+}
+.section2{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+}
+.Card{
+    border-radius:10px;
+    width: 350px;
+    height: 650px;
+    text-align: center;
+    padding:10px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+h1{
+    margin-top: 10px;
+    padding:10px;
+    color:#fff;
+}
+
+span{
+    color:hsl(178, 100%, 50%);
+}
+.days{
+    color: hsl(215, 51%, 70%)
+}
+
+
+p{    
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    width:310px;    
+    color:hsl(215, 32%, 27%);
+}
+
+.guion{
+    margin-top:20px;    
+}
+.guion2{
+    color: hsl(215, 32%, 27%);
+}
+.section3{
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    width:310px;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px; 
+}
+
+.avatar {
+    margin-right: 10px; /* Ajusta el margen derecho para un pequeño espacio entre la imagen y el texto */
+    width: 20px;
+}
+
+.foot {
+    color: #fff; 
+}
